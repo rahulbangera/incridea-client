@@ -91,6 +91,7 @@ const QuizPage = ({
     } else {
       console.log("Incorrect Password", overridePassword);
     }
+    setPass("");
   };
 
   const router = useRouter();
